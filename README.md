@@ -5,13 +5,11 @@ This repository is for IDS706 individual project 1.
 
 
 ## Purpose 
-    This repository uses panads to describe statistics and generate visualization for dataset Auto.csv. 
-    The dataset Auto.csv includes variables such as mpg, weight, year, origin and acceleration etc.
-    General statistics are described in the describe_dataset() function. This includes statistics on
-    mean, count, and standard deviation etc.
-    Furthermore, through the visualizatons created, one is able to analyze the correlation between weight and mpg or
-    weight and acceleration with respect to origin or year. Both the scattered plots and fitted plots, 
-    which include line of best fit, are included to provide closer insight.
+This repository employs Pandas to perform statistical analysis and generate visualizations for the "Cars.csv" dataset. The dataset "Auto.csv" comprises various variables, including mpg, weight, year, origin, acceleration, and more.
+
+The `describe_dataset()` function is used to present general statistics, encompassing metrics such as mean, count, standard deviation, and more.
+
+Additionally, the visualizations produced allow for an in-depth analysis of the correlation between weight and mpg, as well as weight and acceleration, concerning their respective origins or years. Both scatter plots and fitted plots, which incorporate the line of best fit, are included to provide a more comprehensive understanding of the data.
 
 ## Important Things included are:
 - ``.devcontainer`` includes a Dockerfile and devcontainer.json.
@@ -27,7 +25,7 @@ This repository is for IDS706 individual project 1.
 
 - ``requirements.txt`` is to specify the dependencies (libraries and packages) required to run the project.
   
-- ``project1`` folder includes the main files for this project. It includes a ``desc_stats.ipynb`` jupyter notebook and 4 python files:``main.py``,``lib.py``,``test_main.py``,``test_lib.py``. It also includes the investigated dataset ``Auto.csv``.
+- ``project1`` folder includes the main files for this project. It includes a ``desc_stats.ipynb`` jupyter notebook and 4 python files:``main.py``,``lib.py``,``test_main.py``,``test_lib.py``. It also includes the investigated dataset ``Cars.csv``.
 
         - ``desc_stats.ipynb`` is a jupyter notebook that includes the scratch notes for creating the functions. It also displays the plots created.
   
